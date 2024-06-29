@@ -8,6 +8,14 @@
 
 Welcome to the **Design and Develop a Serverless Event-Driven Microservice-Based Solution** workshop! This full-day workshop will equip developers and architects with the knowledge and skills to create scalable, efficient, and cost-effective serverless solutions using Azure and. NET. We will explore various Azure services, serverless design patterns, and real-world scenarios throughout the day to provide hands-on experience.
 
+## Workshop Details
+
+- **Event**: [Nebraska.Code 2024](https://whova.com/web/hNiJdTa6x0fXwYih-GVzq-m8-pq5dthqOzaSMWeJL5g%3D/)
+- **Date**: Wednesday, July 17, 2024
+- **Duration**: Full-day
+- **Location:** Lancaster 2&3
+- **Audience**: Anyone curious about serverless architectures, data-driven decision-making, and microservices.
+
 ## Technology and Services Covered
 
 During this workshop, you will gain exposure to various Azure services and technologies, including Azure Functions, Azure Event Grid, Azure Logic Apps, Azure Cosmos DB, and Application Insights.

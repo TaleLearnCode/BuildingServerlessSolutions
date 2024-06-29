@@ -1,12 +1,20 @@
 [Building Serverless Solutions with Azure and .NET](..\..\README.md) \ 
 
-# Workshop — Beer City Code 2024
+# Workshop
 
 ![Building Serverless Solutions with Azure and .NET](../../thumbnail.jpg)
 
 ## Overview
 
 Welcome to the **Building Serverless Solutions with Azure and .NET** workshop! This full-day workshop will equip developers and architects with the knowledge and skills to create scalable, efficient, and cost-effective serverless solutions using Azure and. NET. We will explore various Azure services, serverless design patterns, and real-world scenarios throughout the day to provide hands-on experience.
+
+## Workshop Details
+
+- **Event**: [Beer City Code 2024](https://www.beercitycode.com/)
+- **Date**: Friday, August 2, 2024
+- **Duration**: Full-day
+- **Location:** Room 255
+- **Audience**: Anyone curious about serverless architectures, data-driven decision-making, and microservices.
 
 ## Technology and Services Covered
 
