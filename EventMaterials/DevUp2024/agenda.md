@@ -1,4 +1,4 @@
-[Building Serverless Solutions with Azure and .NET](..\..\README.md) \ [dev up 2024](README.md)  \
+[Building Serverless Solutions with Azure and .NET](../../README.md) \ [dev up 2024](README.md)  \
 
 # Agenda [^1]
 

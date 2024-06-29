@@ -2,7 +2,7 @@
 
 # Workshop — Beer City Code 2024
 
-![Building Serverless Solutions with Azure and .NET](..\..\thumbnail.jpg)
+![Building Serverless Solutions with Azure and .NET](../../thumbnail.jpg)
 
 ## Overview
 

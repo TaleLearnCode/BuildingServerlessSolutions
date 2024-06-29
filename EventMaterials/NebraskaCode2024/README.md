@@ -1,4 +1,4 @@
-[Building Serverless Solutions with Azure and .NET](https://github.com/TaleLearnCode/EDAMicroserviceWorkshop) \ 
+[Design and Develop a Serverless Event-Driven Microservice-Based Solution](https://github.com/TaleLearnCode/EDAMicroserviceWorkshop) \ 
 
 # Workshop — Nebraska.Code() 2024
 
