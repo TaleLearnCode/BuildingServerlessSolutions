@@ -4,8 +4,7 @@
 
 ## Elevator Pitch
 
-Unlock the potential of Azure and .NET in serverless computing. Join our workshop for hands-on learning and efficient building of scalable solutions.
-
+Tackle real-world challenges for the FizzyFusion Drinks' FlavorFlow Fountain and learn Azure serverless skills during the Building Serverless Solutions with Azure and .NET workshop at Beer City Code. #Azure #DotNet #Serverless
 ## Short Abstract
 
 Join this immersive full-day workshop to explore the world of serverless computing using Azure and .NET. Designed for developers and architects, this workshop offers practical activities to understand the principles, tools, and best practices for building serverless applications. Focusing on a real-world scenario, FizzyFusion Drinks’ FlavorFlow Fountain, attendees will tackle challenges related to inventory management, predictive maintenance, data-driven decision-making, and customer engagement. By the end of the day, attendees will have hands-on experience in designing, developing, and deploying serverless solutions on Azure using .NET, equipping them to effectively integrate serverless technologies into their projects. Register today to enhance your serverless development skills and build scalable, resilient, and cost-effective solutions.
@@ -59,10 +58,11 @@ Check out the [Prerequisites](prerequisites.md) page for details of what is expe
 | [Beer City Code](https://www.beercitycode.com/) | Grand Rapids, MI | August 2, 2024 | 9:00 am EDT | Room 255 | Available before event |
 | [Nebraska.Code()](https://nebraskacode.amegala.com/) [^1]  | Lincoln, NE | July 17, 2024 | 8:45 am CDT | Lancaster 2&3 | Available before event |
 
-[^1]: This workshop was listed as "Design and Develop a Serverless Event-Driven Microservice-Based Solution."
-
 Email [chadgreen@chadgreen.com](mailto:chadgreen@chadgreen.com?subject=Presentation%20Request:%20Buildling%20Serverless%20Solutions%20Workshop) to have Chad present this workshop at your event.
 
 ## Resources
 
 There are no additional resources for this presentation.
+
+## Footnotes
+[^1]: This workshop was listed as "Design and Develop a Serverless Event-Driven Microservice-Based Solution."
