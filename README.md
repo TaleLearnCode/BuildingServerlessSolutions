@@ -4,21 +4,22 @@
 
 ## Elevator Pitch
 
-Tackle real-world challenges for the FizzyFusion Drinks' FlavorFlow Fountain and learn Azure serverless skills during the Building Serverless Solutions with Azure and .NET workshop at Beer City Code. #Azure #DotNet #Serverless
+Master serverless solutions with Azure & .NET in a full-day workshop. Learn, build, deploy, and transform discarded appliances into magic!
+
 ## Short Abstract
 
-Join this immersive full-day workshop to explore the world of serverless computing using Azure and .NET. Designed for developers and architects, this workshop offers practical activities to understand the principles, tools, and best practices for building serverless applications. Focusing on a real-world scenario, FizzyFusion Drinks’ FlavorFlow Fountain, attendees will tackle challenges related to inventory management, predictive maintenance, data-driven decision-making, and customer engagement. By the end of the day, attendees will have hands-on experience in designing, developing, and deploying serverless solutions on Azure using .NET, equipping them to effectively integrate serverless technologies into their projects. Register today to enhance your serverless development skills and build scalable, resilient, and cost-effective solutions.
+Join us for a comprehensive full-day workshop on serverless computing with Azure and .NET, designed for developers and architects eager to leverage serverless technologies for creating scalable, efficient, and cost-effective solutions. This hands-on workshop will guide you through the fundamentals of architecting serverless applications on Azure using .NET, focusing on building a real-world business scenario for Cool Revive Technologies. It’s not just about code and cloud but also about repurposing discarded refrigerators with eco-friendly magic and artistic flair. By the end of the day, you’ll gain practical experience in designing, developing, and deploying serverless solutions on Azure, equipping you with the skills to effectively incorporate serverless technologies into your projects. Register today to enhance your serverless development proficiency and build scalable, resilient, and cost-efficient solutions with Azure and .NET.
 
 ## Abstract
-Immerse yourself in a comprehensive full-day workshop that delves into the transformative world of serverless computing using Azure and .NET. This workshop is meticulously crafted for developers and architects who are keen to utilize the potential of serverless technologies to construct scalable, efficient, and cost-effective solutions.
+Immerse yourself in a comprehensive full-day workshop that delves into the transformative world of serverless computing using Azure and . NET. This workshop is meticulously crafted for developers and architects keen to utilize serverless technologies' potential to construct scalable, efficient, and cost-effective solutions.
 
 Throughout this intensive day, attendees will participate in practical activities illuminating the fundamental concepts, tools, and best practices for architecting serverless applications on the Azure platform using the .NET framework.
 
-The workshop will focus on a real-world business scenario: FizzyFusion Drinks’ FlavorFlow Fountain. This state-of-the-art drink dispenser presents several challenges related to inventory management, predictive maintenance, data-driven decision-making, and customer engagement. Attendees will learn how to leverage Azure and .NET to build a serverless solution that addresses these challenges, gaining hands-on experience in designing, developing, and deploying serverless solutions on Azure.
+This workshop will focus on building a real-world business scenario for Cool Revive Technologies. Imagine a frosty landscape where discarded refrigerators find new purpose, eco-friendly magic, and a touch of artistic flair. This workshop isn't just about code and cloud—it's about breathing life into appliances, one function at a time. You will build a solution for Cool Revive's remanufacturing process in the hands-on labs.
 
 By the end of the workshop, attendees will have acquired hands-on experience in designing, developing, and deploying serverless solutions on Azure using .NET. This will equip them with the necessary skills to incorporate serverless technologies effectively into their projects.
 
-Seize this opportunity to enhance your serverless development proficiency and elevate your applications. Register today and embark on a journey towards constructing scalable, resilient, and cost-efficient solutions with Azure and .NET. Don’t miss out!
+Seize this opportunity to enhance your serverless development proficiency and elevate your applications. Register today and embark on a journey towards constructing scalable, resilient, and cost-efficient solutions with Azure and .NET. Don't miss out!
 
 # Type
 - Full-day workshop
@@ -48,7 +49,7 @@ By the end of this workshop, participants should be able to design, implement, a
 
 ## Prerequisites
 
-Check out the [Prerequisites](prerequisites.md) page for details of what is expected of attendees before the workshop.
+Check out the [Prerequisites](prerequisites.md) page for details of attendees' expectations before the workshop.
 
 ## Presentations
 
