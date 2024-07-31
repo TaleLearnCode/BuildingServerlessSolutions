@@ -1,0 +1,66 @@
+[Design and Develop a Serverless Event-Driven Microservice-Based Solution](https://github.com/TaleLearnCode/EDAMicroserviceWorkshop) \ [Nebraska.Code 2024](README.md)  \ [Architecture](README.md)  \
+
+# Microservices
+
+For the successful implementation of the Cool Revive Technologies remanufacturing process, we will strategically divide the process into the following crucial microservices:
+
+- Order Core Unit
+  - **Microservice**: *OrderNextCore*
+  - **Entry**: The pod has completed the assembly of a unit and needs a core to start a new remanufacturing process.
+  - **Exit**: Core is received.
+  - **Pod Actions**: Requests the next core for the remanufacturing process within their pod.
+  - **System Actions**: Calls the warehouse API to retrieve the next core unit.
+- Receive Core Unit
+  - **Microservice**: *CoreReceiving*
+  - **Entry**: A core ready for disassembly is delivered by the conveyance team.
+  - **Exit**: The pod is ready to start disassembling the core unit.
+  - **Pod Actions**: No actions by the pod; conveyance drops the core unit off.
+  - **System Actions**: Update the inventory status of the unit.
+- Disassemble Unit
+  - **Microservice**: *Disassembly*
+  - **Entry**: The pod is ready to start disassembling a received core unit.
+  - **Exit**: The core is disassembled and ready for inspection.
+  - **Pod Actions**: Disassembles and cleans the core's parts that will be retained and discards those parts that are replaced regardless of condition (i.e., gaskets).
+  - **System Actions**: Update the inventory status of the unit.
+- Inspect Parts
+  - **Microservice**: *PartsInspection*
+  - **Entry**: The core has been disassembled.
+  - **Exit**: The inspection of the core's parts has been completed.
+  - **Pod Actions**: The inspector evaluates all of the parts of the disassembled core to determine what needs to be replaced, what needs to be repaired, and what is ready for assembly.
+  - **System Actions**: Update the inventory status of the unit.
+- Repair Parts
+  - **Microservice**: *PartRepair*
+  - **Entry**: A part from a disassembled core requires repair.
+  - **Exit**: The part requiring repair is returned from the repair pod and is ready for inclusion in the unit assembly.
+  - **Pod Actions**: Based upon the inspection, request a part be repaired.
+  - **System Actions**: Send a repair request to the appropriate pod and request pickup from the conveyance.
+- Order Placement Parts
+  - **Microservice**: *PartOrdering*
+  - **Entry**: Replacement part(s)is needed to assemble the refrigerator (either because the part is disposable or beyond repair).
+  - **Exit**: The replacement part(s) are delivered to the pod.
+  - **Pod Actions**: Determine the parts that need to be ordered and submit the request.
+  - **System Actions**: Send an order request to the store department.
+- Receive Replacement Parts
+  - **Microservice**: *PartReceiving*
+  - **Entry**: A part is received from a repair pod or store department conveyance.
+  - **Exit**: A pod member moves the received part to the appropriate parts board.
+  - **Pod Actions**: A pod member moves the received part to the appropriate parts board.
+  - **System Actions**: Updates the inventory status of the unit.
+- Assemble Refrigerator
+  - **Microservice**: *Assembly*
+  - **Entry**: All of the parts needed to assemble the unit have been received.
+  - **Exit**: The refrigerator is assembled and ready for testing.
+  - **Pod Actions**: Assembles the unit and then moves to the quality control staging area.
+  - **System Actions**: Updates the inventory status of the unit.
+- Quality Control
+  - **Microservice**: *QualityControl*
+  - **Entry**: The refrigerator has been assembled and placed in the quality control staging area.
+  - **Exit**: The refrigerator has passed the quality control tests.
+  - **Pod Actions**: Ensures that the assembled unit meets all appropriate quality control measures.
+  - **System Actions**: Updates the inventory status of the unit.
+- Complete Process
+  - **Microservice**: *ProcessCompletion*
+  - **Entry**: The assembled unit has passed the quality control testing.
+  - **Exit**: The assembled unit has been picked up by conveyance for distribution delivery.
+  - **Pod Actions**: Move the unit to the completed unit pickup area; indicate whether they are ready for another core.
+  - **System Actions**: Updates the unit's inventory status and requests that the conveyance team pick it up.
