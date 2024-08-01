@@ -1,6 +1,6 @@
-[Building Serverless Solutions with Azure and .NET](../../README.md) \ [Beer City Code 2024](README.md) \ 
+[Building Serverless Solutions with Azure and .NET](../../README.md) \ [Beer City Code 2024](README.md)  \
 
-# Prerequisites[^1]
+# Prerequisites
 
 To ensure a smooth and productive learning experience during the workshop, participants are required to have the following:
 
@@ -40,7 +40,3 @@ Please ensure all these prerequisites are met before the workshop for a seamless
 > [!IMPORTANT] 
 >
 > Please understand that we cannot spend time setting up your machine and getting subscriptions, as the workshop has too much material to devote to these tasks. Please arrive for the workshop with a device, Azure subscription, and GitHub account that you can use from the venue's Wi-Fi.
-
----
-
-[^1]: This is preliminary information and subject to change before the actual event.
