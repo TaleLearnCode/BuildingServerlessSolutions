@@ -18,7 +18,21 @@ In this lab, you will use Terraform and PowerShell to set up your GitHub reposit
 
 ## Steps
 
-### Part 1: Create a GitHub Token
+### Section 1: Clone the Building Serverless Solutions Repo
+
+1. Open a terminal window.
+
+2. Navigate to the file location where you want to clone the repository.
+
+3. Clone the repository:
+
+   ```sh
+   git clone <repository-url>
+   ```
+
+   
+
+### Section 2: Create a GitHub Token
 
 You will need a GitHub Token to allow the Terraform project to manage your GitHub resources.
 
@@ -38,7 +52,7 @@ You will need a GitHub Token to allow the Terraform project to manage your GitHu
 7. Scroll to the bottom of the page and click **Generate token**.
 8. Copy the generated token now. Once you leave the page, you will not be able to see it again.
 
-### Part 2: Run Environment Initialization Script
+### Section 3: Run Environment Initialization Script
 
 We have built a PowerShell script to handle all the necessary tasks. Because of this, you do not need to follow many tedious steps to create your local folder structure, the GitHub repository, and the Azure resources we will use in this workshop.
 
@@ -59,16 +73,27 @@ We have built a PowerShell script to handle all the necessary tasks. Because of 
 5. Execute the `InitializeEnvironment.ps1` script from the initialize-environment folder:
 
    ```sh
-   .\InitializeEnvironment.ps1 -TargetPath "<<TARGET-PATH>>" -GitHubToken "<<GITHUB_TOKEN>>"
+   .\InitializeEnvironment.ps1 -TargetPath "<<TARGET-PATH>>" -GitHubToken "<<GITHUB_TOKEN>>" -APIMPublisherEmail "<<YOUR-EMAIL-ADDRESS>>"
    ```
 
    The script takes in the following parameters:
 
-   | Parameter      | Required | Description                                                  |
-   | -------------- | -------- | ------------------------------------------------------------ |
-   | TargetPath     | Yes      | The target path for your local repository. For example, `C:\Repos`. |
-   | GitHubToken    | Yes      | The token from [Part 1](#part-1-create-a-github-token).      |
-   | GitHubRepoName | No       | The name of the GitHub repository to create. If not specified, then the repository will be named `cool-revive`. |
+   | Parameter          | Required | Description                                                  |
+   | ------------------ | -------- | ------------------------------------------------------------ |
+   | APIMPublisherEmail | Yes      | The email address to be associated with the Azure API Management instance. Enter your email address. |
+   | APIMPublisherName  | No       | The name of the organization associated with the Azure API Management instance. If not specified, then the publisher name will be `Cool Revive Technologies`. |
+   | AzureRegion        | No       | The Azure region where to create the resources for the workshop. If not specified, then the resources will be created in the East US 2 Azure Region (`eastus2`). |
+   | GitHubRepoName     | No       | The name of the GitHub repository to create. If not specified, then the repository will be named `cool-revive`. |
+   | GitHubToken        | Yes      | The token from [Section 2](#section-2-create-a-github-token). |
+   | TargetPath         | Yes      | The target path for your local repository. For example, `C:\Repos`. |
+
+   > [!NOTE]
+   >
+   > The `TargetPath` parameter needs to point to an existing directory.
+
+   > [!CAUTION]
+   >
+   > If you need to restart the `InitializeEnvironment.ps1` script, be sure to first delete the `$TargetPath\cool-revive` folder.
 
 6. Inspect GitHub
 
