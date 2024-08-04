@@ -1,4 +1,4 @@
-[Build Serverless Solutions with Azure and .NET](../../../README.md) \ [Beer City Code 2024](../README.md) \ [Labs](README.md) \
+[Building Serverless Solutions with Azure and .NET](https://github.com/TaleLearnCode/BuildingServerlessSolutions) \ [Beer City Code 2024](..\README.md) \ [Labs](README.md) \
 
 # Lab 5: Send Messages to Service Bus from API Management
 
@@ -77,7 +77,7 @@ A Shared Access Signature (SAS) token is a security mechanism used in Azure clou
    | Field        | Value                                                |
    | ------------ | ---------------------------------------------------- |
    | Name         | next-core-in-transit-sas-token                       |
-   | Display name | Next Core in Transit SAS Token                       |
+   | Display name | next-core-in-transit-sas-token                       |
    | Type         | Secret                                               |
    | Value        | The **SAS Token** generated in the previous section. |
 

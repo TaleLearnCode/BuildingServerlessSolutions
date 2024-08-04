@@ -1,4 +1,4 @@
-[Build Serverless Solutions with Azure and .NET](../../../README.md) \ [Beer City Code 2024](../README.md) \ [Labs](README.md) \
+[Building Serverless Solutions with Azure and .NET](https://github.com/TaleLearnCode/BuildingServerlessSolutions) \ [Beer City Code 2024](..\README.md) \ [Labs](README.md) \
 
 # Lab 2: Mock Production Schedule Endpoint
 
